@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MHADA 91A Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Welcome to MHADA 91A Notice <br> REE Department Login !</h2>
+            <form action="dashboard.html" method="POST">
+                <label for="username">User Name <span>*</span></label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password <span>*</span></label>
+                <input type="password" id="password" name="password" required>
+                <div class="captcha">
+                    <input type="checkbox" id="captcha" required>
+                    <label for="captcha">I'm not a robot</label>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

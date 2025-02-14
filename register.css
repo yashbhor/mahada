@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar-header img {
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.sidebar-menu li {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.sidebar-menu li:hover {
+    background: #f0f0f0;
+}
+
+.sidebar-menu .active {
+    background: #c69696;
+}
+
+.main-content {
+    flex: 1;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.progress-bar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.progress-bar span {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.progress-bar .active {
+    color: black;
+    background-color: rgb(146, 237, 146);
+}
+
+form {
+    
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.form-row {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff7043;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e64a19;
+}

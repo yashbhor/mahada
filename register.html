@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initiate 91A Notice</title>
+    <link rel="stylesheet" href="register.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <span>91A Notice</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li class="disabled"><span>Dashboard</span></li>
+            <li class="active"><span>📅 Initiate 91A Notice</span></li>
+            <li><span>👤 Profile</span></li>
+            <li><span>🔔 Notifications</span></li>
+            <li><span>↩ Log Out</span></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>Initiate 91A Notice</h1>
+        <p>Register Complaint</p>
+
+        <div class="progress-bar">
+            <span class="active">Basic Building Details</span>
+            <span>NOC Details</span>
+            <span>IOD & CC Details</span>
+            <span>Other Details</span>
+        </div>
+
+        <form action="noc.html" method="POST">
+            <label for="complaintType">Select Complaint Type *</label>
+            <select id="complaintType">
+                <option>General Complaint</option>
+            </select>
+
+            <h2>Basic Building Details</h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="buildingName">Building Name *</label>
+                    <input type="text" id="buildingName" value="Anand Bhuvan">
+                </div>
+                <div class="form-group">
+                    <label for="buildingCESS">Building CESS Number *</label>
+                    <input type="text" id="buildingCESS" value="CESS1234567890">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="buildingAddress">Building Address *</label>
+                    <textarea id="buildingAddress">DB Sathe marg girgaon, 26-A, 4th Floor, Shreenath Bhavan 103/105, Old Hanuman Lane, Kalbadevi, Mumbai-400 002</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="zone">Zone *</label>
+                    <input type="text" id="zone" value="North B">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="ward">Ward *</label>
+                    <input type="text" id="ward" value="North G">
+                </div>
+                <div class="form-group">
+                    <label for="plotDetail">Plot Detail *</label>
+                    <input type="text" id="plotDetail" value="Anand Bhuvan">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="csNumber">CS Number *</label>
+                    <input type="text" id="csNumber" value="CESS1234567890">
+                </div>
+                <div class="form-group">
+                    <label for="redevelopmentStatus">Current Redevelopment Status *</label>
+                    <input type="text" id="redevelopmentStatus" value="Work-in-Progress">
+                </div>
+            </div>
+
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initiate 91A Notice</title>
+    <link rel="stylesheet" href="noc.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <span>91A Notice</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li class="disabled"><span>Dashboard</span></li>
+            <li class="active"><span>📅 Initiate 91A Notice</span></li>
+            <li><span>👤 Profile</span></li>
+            <li><span>🔔 Notifications</span></li>
+            <li><span>↩ Log Out</span></li>
+        </ul>
+    </div>
+
+        <main class="form-container">
+            <h1>Initiate 91A Notice</h1>
+            <nav class="progress-bar">
+                <div class="step completed">✔ Basic Building Details</div>
+                <div class="step active">NOC Details</div>
+                <div class="step">IOD & CC Details</div>
+                <div class="step">Other Details</div>
+            </nav>
+
+            <form>
+                <label for="noc-holder-name">NOC Holder Name *</label>
+                <input type="text" id="noc-holder-name" value="NOC Holder Name" required>
+
+                <label for="noc-number">NOC Number *</label>
+                <input type="text" id="noc-number" value="NOC1234567890" required>
+
+                <label for="noc-holder-address">NOC Holder Address *</label>
+                <textarea id="noc-holder-address" required>DB Sathe marg girgaon, 26-4, 4th Floor, Shreenath Bhavan 103/105, Old Hanuman Lane, Kalbadevi, Mumbai-400 002</textarea>
+
+                <label for="noc-holder-mobile">NOC Holder Mobile Number *</label>
+                <input type="tel" id="noc-holder-mobile" value="+91 1234567890" required>
+
+                <label for="noc-holder-email">NOC Holder Email ID *</label>
+                <input type="email" id="noc-holder-email" value="nocemailid@gmail.com" required>
+
+                <label for="noc-issue-date">NOC Issue Date *</label>
+                <input type="date" id="noc-issue-date" value="2024-10-12" required>
+
+                <div class="buttons">
+                    <button type="button" class="back" onclick="location.href='register.html'">Back</button>
+                    <button type="button" class="next" onclick="location.href='ioddetail.html'">Next</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

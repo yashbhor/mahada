@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <span>91A Notice</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li class="disabled"><span>Dashboard</span></li>
+            <li class="active" onclick="window.location.href='91A.html'">
+                <span>📅 Initiate 91A Notice</span>
+            </li>
+            <li><span>👤 Profile</span></li>
+            <li><span>🔔 Notifications</span></li>
+            <li><span>↩ Log Out</span></li>
+        </ul>
+    </div>
+    
+    <div class="main-content">
+        <h2>Dashboard</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Total Complaints</h3>
+                <p>28</p>
+            </div>
+            <div class="card">
+                <h3>General Complaints</h3>
+                <p>8</p>
+            </div>
+            <div class="card">
+                <h3>Site Visits Of DE</h3>
+                <p>10</p>
+            </div>
+            <div class="card">
+                <h3>Rejected Complaints</h3>
+                <p>10</p>
+            </div>
+        </div>
+        <div class="charts">
+            <div class="chart">
+                <h3>Complaints</h3>
+                <div class="bar-chart">
+                    <div class="bar pending">
+                        <span class="label">Pending</span>
+                    </div>
+                    <div class="bar approved">
+                        <span class="label">Approved</span>
+                    </div>
+                    <div class="bar rejected">
+                        <span class="label">Rejected</span>
+                    </div>
+                    <div class="bar forwarded">
+                        <span class="label">Forwarded</span>
+                    </div>
+                    <div class="bar rescheduled">
+                        <span class="label">Rescheduled</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart">
+                <h3>New Complaints over the past 12 months</h3>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

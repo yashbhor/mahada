@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>91A Notice</title>
+    <link rel="stylesheet" href="ioddetail.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <span>91A Notice</span>
+        </div>
+        <ul class="sidebar-menu">
+            <li class="disabled"><span>Dashboard</span></li>
+            <li class="active"><span>📅 Initiate 91A Notice</span></li>
+            <li><span>👤 Profile</span></li>
+            <li><span>🔔 Notifications</span></li>
+            <li><span>↩ Log Out</span></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>Initiate 91A Notice</h1>
+        <p><a href="#">Register Complaint</a></p>
+        
+        <div class="progress-bar">
+            <div class="step completed">✔ Basic Building Details</div>
+            <div class="step completed">✔ NOC Details</div>
+            <div class="step active">IOD & CC Details</div>
+            <div class="step">Other Details</div>
+        </div>
+
+        <div class="form-container">
+            <label for="iod">IOD Detail *</label>
+            <input type="text" id="iod" value="IOD1234567890" readonly>
+
+            <label for="cc">CC Detail *</label>
+            <input type="text" id="cc" value="CC1234567890" readonly>
+
+            <div class="buttons">
+                <button type="button" class="back" onclick="location.href='noc.html'">Back</button>
+                <button class="next">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
