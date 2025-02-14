@@ -59,12 +59,12 @@ body {
 
 
 .main-content {
-    margin-left: 250px; /* Push content to the right of sidebar */
+    margin-left: 250px; 
     padding: 20px;
-    width: calc(100% - 250px); /* Prevent overlapping sidebar */
+    width: calc(100% - 250px);
     background-color: #fff;
     min-height: 100vh;
-    overflow-x: hidden; /* Prevent content overflow */
+    overflow-x: hidden; 
 }
 
 .main-content h2 {
@@ -76,7 +76,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    flex-wrap: wrap; /* Allow wrapping to prevent overflow */
+    flex-wrap: wrap; 
 }
 
 .card {
@@ -101,7 +101,7 @@ body {
 .charts {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /* Allow charts to wrap */
+    flex-wrap: wrap; 
 }
 
 .chart {
